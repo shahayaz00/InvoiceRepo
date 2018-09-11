@@ -14,5 +14,12 @@ namespace InvoiceRep.Controllers
 
             return View();
         }
+
+        public ActionResult AboutMe()
+        {
+            ViewBag.Title = "Shah Ayaz";
+
+            return View();
+        }
     }
 }
